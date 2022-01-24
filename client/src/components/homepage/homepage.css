@@ -1,0 +1,178 @@
+nav{
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+
+.para1{
+    color: snow;
+    text-shadow: 0px 0px 5px black;
+
+}
+
+.main-heading{
+    color: snow;
+    padding-bottom: 5px;
+    text-shadow: 0px 0px 3px black;
+}
+
+.our-details{
+   
+    width: 50%;
+    margin: 0 auto;
+}
+
+.typewriter{
+    display: inline-block;
+}
+
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 2s steps(20, end) forwards, blinking .9s infinite;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: #FFCBCB;; }
+  }
+
+h5{
+    color: whitesmoke;
+    margin: 20px;
+    font-weight: 600;
+}
+
+.mid-box{
+    background-image: url("./janko.jpg");
+    background-size: cover;
+    padding: 40px 10px;
+    opacity: 2.5;
+}
+
+.middle{
+    width: 55%;
+    margin: auto;
+}
+
+.learn{
+   text-decoration: none;
+   color: black;
+}
+
+.childrens-image{
+    margin: 30px auto;
+}
+
+.question-student{
+    float: left;
+    margin: 10px;
+}
+
+.work-teacher{
+    float: right;
+    margin: 10px;
+}
+.how{
+    float: right;
+}
+
+.block{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.para{
+    padding-top: 50px;
+}
+
+h3{
+    font-family: 'Roboto Slab', serif;
+}
+
+h4{
+    font-family: 'Roboto Slab', serif;
+    margin: 10px;
+    color: blue;
+}
+
+@media (max-width: 1230px)
+{
+    .question-student{
+        float: none;
+    }
+
+    .work-teacher{
+        float: none;
+    }
+
+    .how{
+        float: none;
+    }
+
+    .para{
+        padding-top: 0;
+    }
+
+    .childrens-image{
+        text-align: center;
+
+    }
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: lightblue;
+    position: relative;
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.bottom{
+    background-color: #072227;
+    text-align: center;
+    
+}
+
+.our-images{
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+}
+
+.btn{
+    margin: 5px;
+}
+
+.btn:hover{
+    background-color: lightblue;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.carousel-item{
+    padding: 50px;
+    padding-bottom: 50px;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+}
+
+.carousel-item p{
+    color: whitesmoke;
+    font-family: cursive;
+}
+
