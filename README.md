@@ -1,5 +1,4 @@
 ﻿# Adhyapanam
-This is a MERN stack project.
 - [x] Developed a website where students can take live class of their choice from any teacher who has posted any live session.
 - [x] Implemented authentication with Javascript Web Tokens, ensuring that only authenticated mentors or students can assign/join classes.
 - [x] Designed a user-friendly and interactive UI which is easy to use for both students and mentors.
